@@ -5,21 +5,22 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="materialize/css/style.css"/>
         <title>HOME</title>
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta charset="utf-8">
     </head>
 
-    <body>
+    <body id="grad">
 
         <!-- NAVBAR -->
         <nav>
-            <div class="nav-wrapper blue darken-3">
-                <a href="#" class="brand-logo">APGov</a>
+            <div class="nav-wrapper teal lighten-4">
+
+                <a href="#" class="brand-logo center black-text"><img src="images/logo.png" id="imgLogo"></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="#sobre" class="black-text">Sobre</a></li>
                 </ul>
             </div>
         </nav>
@@ -28,11 +29,10 @@
             <!-- CARDS -->
             <br /><br /><br />
             <div class="row">
-                <h4>Selecione seu ramo</h4> <br />
                 <div class="col s4">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/office.jpg">
+                            <img class="activator" src="images/instituicao.jpeg">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Instituições<i class="material-icons right">more_vert</i></span>
@@ -48,7 +48,7 @@
                                             <label for="user">Usuário</label>
                                         </div>
                                         <div class="input-field col s12">
-                                            <input id="password" type="text" class="validate">
+                                            <input id="password" type="password" class="validate">
                                             <label for="password">Senha</label>
                                         </div>
                                     </div>
@@ -62,7 +62,7 @@
                 <div class="col s4">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/office.jpg">
+                            <img class="activator" src="images/empresa.jpeg">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Empresas<i class="material-icons right">more_vert</i></span>
@@ -78,11 +78,11 @@
                                             <label for="cnpj">CNPJ</label>
                                         </div>
                                         <div class="input-field col s12">
-                                            <input id="password" type="text" class="validate">
+                                            <input id="password" type="password" class="validate">
                                             <label for="password">Senha</label>
                                         </div>
                                     </div>
-                                    <a class="waves-effect waves-light btn right">Login</a>
+                                    <a class="waves-effect waves-light btn right" href="empresas.html">Login</a>
                                 </form>
                                 <!-- FIM FORM -->
                             </div>
@@ -92,7 +92,7 @@
                 <div class="col s4">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/office.jpg">
+                            <img class="activator" src="images/prefeitura1.jpeg">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Prefeitura<i class="material-icons right">more_vert</i></span>
@@ -108,11 +108,11 @@
                                             <label for="email">Email</label>
                                         </div>
                                         <div class="input-field col s12">
-                                            <input id="password" type="text" class="validate">
+                                            <input id="password" type="password" class="validate">
                                             <label for="password">Senha</label>
                                         </div>
                                     </div>
-                                    <a class="waves-effect waves-light btn right">Login</a>
+                                    <a class="waves-effect waves-light btn right" href="prefeitura.html">Login</a>
                                 </form>
                                 <!-- FIM FORM -->
                             </div>
@@ -123,13 +123,13 @@
             <!-- FIM CARDS -->
         </div>
         <br /><br /><br /><br /><br /><br />
-        <div class="cyan lighten-3">
+        <div class="">
             <div class="container" id="sobre">
                 <div class="row">
                     <div class="col s6">
                         <h3>Sobre</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac dolor vel felis bibendum auctor ut eu mauris. In laoreet lorem eget lectus tempor, vitae convallis erat varius. Proin porta odio sit amet purus imperdiet semper. Suspendisse ipsum sapien, fringilla sed ultrices vel, accumsan commodo libero. Integer scelerisque neque eget faucibus malesuada. Aenean egestas ut metus id tempor. Nulla facilisi. Maecenas eu dolor rutrum, commodo neque vel, euismod ante. Ut mauris odio, porta id commodo in, tristique euismod risus. Pellentesque sollicitudin bibendum mi, in tincidunt justo consectetur sit amet. Aliquam eu tortor sed ipsum commodo viverra. Morbi ultricies arcu at felis faucibus, in elementum tellus lobortis.Pellentesque sollicitudin bibendum mi, in tincidunt justo consectetur sit amet. Aliquam eu tortor sed ipsum commodo viverra. Morbi ultricies arcu at felis faucibus, in elementum tellus lobortis. 
+                            Allsee foi a plataforma ganhadora da 1ª edição do HACKRIBEIRÃO realizado em 2017. Visamos prestar serviço no âmbito público, no qual oferecemos uma plataforma web que facilita o gerenciamento de licitações de bens, e o cadastramento de empresas concorrentes para oferecer os produtos. Para as prefeituras, oferecemos o BI Analitycs que permite analisar a melhor empresa que oferece um produto com o melhor custo/benefício.
                         </p>
                     </div>
                     <div class="col s6">
@@ -137,8 +137,26 @@
                     </div>
                 </div>
             </div>
-            <br /><br /><br /><br />
+            <br />
         </div>
+
+        <!-- FOOTER -->
+        <footer class="page-footer teal darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">AllSee</h5>
+                        <p class="grey-text text-lighten-4">Ajudando as prefeituras.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2017 Copyright Text
+                </div>
+            </div>
+        </footer>
+        <!-- FIM FOOTER -->
 
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

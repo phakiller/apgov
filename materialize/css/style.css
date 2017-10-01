@@ -1,0 +1,18 @@
+#grad {
+    background: #4db6ac; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#4db6ac, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4db6ac, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4db6ac, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4db6ac, white); /* Standard syntax */
+}
+
+.card {
+	min-height: 100px;
+}
+
+#imgLogo {
+	width: 250px;
+	position: relative;
+	top: -25px;
+	border-bottom: -100px;
+}
