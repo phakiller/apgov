@@ -11,7 +11,7 @@
         <meta charset="utf-8">
     </head>
 
-    <body>
+    <body class="blue-grey lighten-5">
 
         <!-- NAVBAR -->
         <nav>
@@ -25,63 +25,166 @@
         </nav>
 
         <div class="container">
-            <h4>Instituições</h4><br />
+
+            <div class="row">
+                <div class="col s6 m6">
+                    <div class="card white">
+                        <div class="card-content">
+                            <span class="card-title">
+                                Acompanhamento
+                                <a class="waves-effect waves-light btn right blue modal-trigger" href="#modal1"><i class="material-icons left">add</i>Add Licitação</a>
+                            </span>
+                                <ul class="collapsible" data-collapsible="accordion">
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="material-icons green-text">brightness_1</i>
+                                        Protocolo 01
+                                        <span class="badge">R$ 5.000,00</span></div>
+                                    <div class="collapsible-body">
+                                        <p>Detalhes:<br />
+                                            Produto: Cadeira<br />
+                                            Quantidade: 150
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="material-icons green-text">brightness_1</i>
+                                        Protocolo 02
+                                        <span class="badge">R$ 500,00</span></div>
+                                    <div class="collapsible-body">
+                                        <p>Detalhes:<br />
+                                            Produto: Lapis<br />
+                                            Quantidade: 150
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="material-icons yellow-text">brightness_1</i>
+                                        Protocolo 03
+                                        <span class="badge">R$ 2.000,00</span></div>
+                                    <div class="collapsible-body">
+                                        <p>Detalhes:<br />
+                                            Produto: Papel Higiênico<br />
+                                            Quantidade: 1000
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="material-icons red-text">brightness_1</i>
+                                        Protocolo 04
+                                        <span class="badge">R$ 10.500,00</span></div>
+                                    <div class="collapsible-body">
+                                        <p>Detalhes:<br />
+                                            Produto: Computadores<br />
+                                            Quantidade: 150
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m6">
+                    <div class="card white">
+                        <div class="card-content">
+                            <span class="card-title">Notificações</span>
+                            <p>Nenhuma notificação.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col s12">
-                    <h5>Pedidos recentes:</h5>
+                    <div class="card white">
+                        <div class="card-content">
+                            <span class="card-title">Histórico</span>
+                            <table class="bordered centered highlight">
+                                <thead>
+                                    <tr>
+                                        <th>Protocolo</th>
+                                        <th>Item</th>
+                                        <th>Quantidade</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
 
+                                <tbody>
+                                    <tr>
+                                        <td>0102</td>
+                                        <td>Cadeira</td>
+                                        <td>10</td>
+                                        <td>R$ 1.000,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0203</td>
+                                        <td>Lapis</td>
+                                        <td>100</td>
+                                        <td>R$ 100,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0304</td>
+                                        <td>Pacote Folhas A4</td>
+                                        <td>5</td>
+                                        <td>R$ 50,00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                     <ul class="collapsible" data-collapsible="accordion">
-                        <li>
-                            <div class="collapsible-header">
-                                <i class="material-icons">done</i>
-                                Cadeiras
-                                <span class="badge">#01</span></div>
-                            <div class="collapsible-body">
-                                <p>Detalhes:<br />
-                                    Produto: Cadeira<br />
-                                    Quantidade: 150
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header">
-                                <i class="material-icons">done</i>
-                                Lapis
-                                <span class="badge">#02</span></div>
-                            <div class="collapsible-body">
-                                <p>Detalhes:<br />
-                                    Produto: Cadeira<br />
-                                    Quantidade: 150
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header">
-                                <i class="material-icons">done</i>
-                                Folhas A4
-                                <span class="badge">#03</span></div>
-                            <div class="collapsible-body">
-                                <p>Detalhes:<br />
-                                    Produto: Cadeira<br />
-                                    Quantidade: 150
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header">
-                                <i class="material-icons">done</i>
-                                Papel Higienico
-                                <span class="badge">#04</span></div>
-                            <div class="collapsible-body">
-                                <p>Detalhes:<br />
-                                    Produto: Cadeira<br />
-                                    Quantidade: 150
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                    <!-- Modal Trigger -->
-                    <a class="waves-effect waves-light btn modal-trigger right" href="#modal1"><i class="material-icons left">add</i>Adicionar Pedido</a>
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="material-icons blue-text">brightness_1</i>
+                                        Protocolo 01 - Empresa A
+                                        <span class="badge">R$ 5.000,00</span></div>
+                                    <div class="collapsible-body">
+                                        <p>Detalhes:<br />
+                                            Produto: Cadeira<br />
+                                            Quantidade: 150
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="material-icons blue-text">brightness_1</i>
+                                        Protocolo 02 - Empresa B
+                                        <span class="badge">R$ 500,00</span></div>
+                                    <div class="collapsible-body">
+                                        <p>Detalhes:<br />
+                                            Produto: Lapis<br />
+                                            Quantidade: 150
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="material-icons blue-text">brightness_1</i>
+                                        Protocolo 03 - Empresa A
+                                        <span class="badge">R$ 2.000,00</span></div>
+                                    <div class="collapsible-body">
+                                        <p>Detalhes:<br />
+                                            Produto: Papel Higiênico<br />
+                                            Quantidade: 1000
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="material-icons blue-text">brightness_1</i>
+                                        Protocolo 04 - Empresa A
+                                        <span class="badge">R$ 10.500,00</span></div>
+                                    <div class="collapsible-body">
+                                        <p>Detalhes:<br />
+                                            Produto: Computadores<br />
+                                            Quantidade: 150
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
                 </div>
             </div>
         </div>
